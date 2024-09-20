@@ -1,0 +1,192 @@
+@import url("/CSS/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@font-face {
+    font-family: "Wadik";
+    src: url("/fonts/wadik/Wadik.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info h1 {
+    font-family: "Wadik", sans-serif;
+    max-width: 900px;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #151515;
+    font-family: "inter", sans-serif;
+}
+
+body {  
+    background-color: #151515;
+}
+
+.main {
+    background-color: #151515;
+}
+    
+
+hr {
+    background: rgb(21,21,21);
+    background: linear-gradient(90deg, rgba(21,21,21,1) 0%, rgba(217,217,217,1) 50%, rgba(21,21,21,1) 100%);
+    height: 2px;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 40px 40px ;
+    border-bottom: #fff 2px;
+}
+
+.logo {
+    max-width: 211px;
+    max-height: 67px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.tel {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.tel img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.btn {
+    padding: 20px 30px;
+    background-color: #44B1B7;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.info {
+    padding: 40px 20px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.info .bid {
+    margin-top: 60px;
+}
+
+/* Наши услуги */
+
+.content-info {
+    padding: 40px 20px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.content-info h1 {
+    font-family: "Wadik", sans-serif;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+
+.glide {
+    margin-bottom: 100px;
+}
+.glide__arrows {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.arrows {
+    padding: 20px 20px ;
+} 
+.glide__slides {
+    width: 30%;
+}
+.glide__slide {
+}
+.card {
+    text-align: center;
+    align-items: center;
+}
+.card h2{
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.card-info {
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* Как мы работаем? */
+.work {
+    margin: 50px;
+}
+.work h1{
+    color: #fff;
+    font-family: "Wadik", sans-serif;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    max-width: 700px;
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    column-gap: 30px;
+}
+
+.content {
+    width: 800px;
+    align-items: center;
+}
+
+.content h2 {
+    font-family: "inter";
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+}

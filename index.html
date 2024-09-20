@@ -1,28 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" href="CSS/media.css">
-    <link rel="stylesheet" href="CSS/reset.css">
-</head>
-<body>
-    <div class="container">
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/media.css" />
+    <link rel="stylesheet" href="glide/glide.core.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
         <nav class="nav">
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+          <img class="logo" src="/img/лого подвал.png" alt="" />
+          <ul class="nav-list">
+            <li>
+              <span class="tel"
+                ><img src="/img/Frame.png" alt="" /><a
+                  href="»tel:+79898886454″"
+                  class="tel"
+                  >+7(964)000-63-63</a
+                ></span
+              >
+            </li>
+            <li><a class="btn" href="">Свяжитесь с нами</a></li>
+          </ul>
         </nav>
-        <main class="info">
-            <div>
-                
-            </div>
-        </main>
+        <div class="info">
+          <h1>Быстрое оформление документов для мигрантов</h1>
+          <p>Надежная помощь с документами</p>
+          <div class="bid">
+            <a class="btn" href="">Оставить Заявку</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <hr>
+    <main class="main">
+      <div class="container">
+        <div class="content-info"> <!НАШИ УСЛУГИ>
+          <h1>Наши услуги</h1>
+        </div>
+        <div class="glide">
+          <div class="glide__arrows" data-glide-el="controls">
+          <button class="arrows" data-glide-dir="<"><img src="/img/left.png" alt=""></button>
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="card">
+                <h2>Консультация</h2>
+                <div class="card-info">
+                  <img src="/img/01.jpg" alt="">
+                </div>
+              </div>
+            </li>
+              <li class="glide__slide">
+                <div class="card">
+                <h2>Оформление ВНЖ</h2>
+                <div class="card-info">
+                  <img src="/img/02.jpg" alt="">
+                </div>
+              </div>
+            </li>
+              <li class="glide__slide">
+                <div class="card">
+                <h2>Оформление РВП</h2>
+                <div class="card-info">
+                  <img src="/img/03.jpg" alt="">
+                </div>
+              </div>
+            </li>
+            </ul>
+          </div>
+          <button class="arrows" data-glide-dir=">"><img src="/img/right.png" alt=""></button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="work">
+          <h1>Как мы работаем?</h1>
+          <div class="step">
+            <img src="/img/1.png" alt="">
+              <div class="content">
+                  <h2>Свяжитесь с нами</h2>
+                  <p>Заполните заявку или позвоните нам по номеру телефона.</p>
+              </div>
+          </div>
+          <img src="/img/Vector 29.png" alt="">
+          <div class="step">
+            <img src="/img/2.png" alt="">
+              <div class="content">
+                  <h2>Получите консультацию</h2>
+                  <p>Мы доступно объясним юридически сложные вопросы. Вы всегда будете понимать, что и в какую очередь нужно делать, мы с вами на связи на протяжении всего процесса оформления документов.</p>
+              </div>
+          </div>
+          <img src="/img/Vector 29.png" alt="">
+          <div class="step">
+            <img src="/img/3.png" alt="">
+              <div class="content">
+                  <h2>Решите проблему</h2>
+                  <p>Наши специалисты учитывают все ваши потребности и особенности ситуации, предлагая наиболее оптимальные решения.</p>
+              </div>
+          </div>
+        </div>
     </div>
-</body>
+    </main>
+  </body>
+  <script src="glide/glide.min.js"></script>
+  <script>
+    new Glide(".glide", {
+      type: "carousel",
+      startAt: 0,
+      perView: 3,
+      breakpoints: {
+        1024: {
+          perView: 2,
+        },
+        600: {
+          perView: 1,
+        },
+      },
+    }).mount();
+  </script>
 </html>
